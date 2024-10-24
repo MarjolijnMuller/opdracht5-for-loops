@@ -30,7 +30,16 @@ for (let i = 0; i < 6; i++) {
 // loop...
 // klaar!
 // ==========================================
+console.log(" ");
+console.log("opdracht 2:");
 
+for (let i = 0; i < 5; i++) {
+    if (i<4){
+        console.log("loop...");
+    } else {
+        console.log("klaar!");
+    }
+}
 
 
 
