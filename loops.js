@@ -59,7 +59,20 @@ for (let i = 0; i < 5; i++) {
 // >> 8
 // >> 9
 // ==========================================
+console.log(" ");
+console.log("opdracht 3:");
 
+for (let i = 0; i < 10; i++) {
+
+    if (i<3) {
+        console.log(i);
+    }else if(i>6 ){
+        console.log(">>"+i);
+    } else{
+        console.log(">"+i);
+    }
+
+}
 
 
 
@@ -102,5 +115,17 @@ for (let i = 0; i < 5; i++) {
 // etc.
 // ==========================================
 
+console.log(" ");
+console.log("Bonusopdracht:");
 
-
+for (let i = 1; i <= 100; i++) {
+    if (i%3===0 && i%5===0){
+        console.log("FizzBuzz");
+    } else if (i%3===0){
+        console.log("Fizz");
+    } else if (i%5===0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
